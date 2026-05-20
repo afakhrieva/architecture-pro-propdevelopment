@@ -3,7 +3,7 @@
 
 ## Анализ системы и классификация данных по ISO/IEC 27001, 27002
 
-[Mindmap в drawio](drawio/secure_data_mindmap.drawio)   
+[Mindmap в drawio](secure_data_mindmap.drawio)   
 
 
 ### Категория ISO - Публичные данные
