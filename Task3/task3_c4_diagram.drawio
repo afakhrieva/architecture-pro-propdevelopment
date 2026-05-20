@@ -62,7 +62,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="XQhlFUIxGWKAOeyBzQG5" name="Контейнеры">
-    <mxGraphModel dx="2727" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3711" dy="1440" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -673,45 +673,45 @@
             <mxPoint x="1890" y="930" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="i7Hbo2iFgVbTqe8S_Spz-9" edge="1" parent="1" source="rWTZEeXJ3mS4fAgbPOnj-1" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;" target="nFB4tpNnGNIT1_HhN5Ei-121" value="[REST]">
+        <mxCell id="i7Hbo2iFgVbTqe8S_Spz-9" edge="1" parent="1" source="nFB4tpNnGNIT1_HhN5Ei-121" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="rWTZEeXJ3mS4fAgbPOnj-1" value="Публикация изменений&lt;br&gt;[Kafka]">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="1740" y="940" as="sourcePoint" />
-            <mxPoint x="1790" y="890" as="targetPoint" />
+            <mxPoint x="1750" y="1390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="IVo4ALchou82GjAAs4r0-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#8C8496;fontColor=#ffffff;fontSize=12;strokeColor=#736782;align=center;" value="&lt;b&gt;Домофон&lt;/b&gt;&lt;br&gt;[Физическое устройство]" vertex="1">
-          <mxGeometry height="50" width="190" x="2440" y="1052" as="geometry" />
+          <mxGeometry height="50" width="190" x="2470" y="1052" as="geometry" />
         </mxCell>
         <mxCell id="IVo4ALchou82GjAAs4r0-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#8C8496;fontColor=#ffffff;fontSize=12;strokeColor=#736782;align=center;" value="&lt;b&gt;Шлагбаумы&lt;/b&gt;&lt;br&gt;[Физическое устройство]" vertex="1">
-          <mxGeometry height="50" width="190" x="2440" y="1112" as="geometry" />
+          <mxGeometry height="50" width="190" x="2470" y="1112" as="geometry" />
         </mxCell>
         <mxCell id="IVo4ALchou82GjAAs4r0-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#8C8496;fontColor=#ffffff;fontSize=12;strokeColor=#736782;align=center;" value="&lt;b&gt;Камеры&lt;/b&gt;&lt;br&gt;[Физическое устройство]" vertex="1">
-          <mxGeometry height="50" width="190" x="2440" y="1172" as="geometry" />
+          <mxGeometry height="50" width="190" x="2470" y="1172" as="geometry" />
         </mxCell>
         <object placeholders="1" c4Name="Платформа умного дома партнера" c4Type="Software System" c4Description="Интеллектуальный домофон,&#xa;интеллектуальный шлагбаум" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="IVo4ALchou82GjAAs4r0-4">
           <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#8C8496;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#736782;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1">
-            <mxGeometry height="120" width="240" x="2282" y="860" as="geometry" />
+            <mxGeometry height="120" width="240" x="2312" y="860" as="geometry" />
           </mxCell>
         </object>
         <mxCell id="IVo4ALchou82GjAAs4r0-5" edge="1" parent="1" source="IVo4ALchou82GjAAs4r0-4" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" target="IVo4ALchou82GjAAs4r0-1" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="2200" y="1052" as="sourcePoint" />
-            <mxPoint x="2250" y="1002" as="targetPoint" />
+            <mxPoint x="2230" y="1052" as="sourcePoint" />
+            <mxPoint x="2280" y="1002" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="IVo4ALchou82GjAAs4r0-6" edge="1" parent="1" source="IVo4ALchou82GjAAs4r0-4" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;edgeStyle=orthogonalEdgeStyle;" target="IVo4ALchou82GjAAs4r0-2" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="2200" y="1052" as="sourcePoint" />
-            <mxPoint x="2250" y="1002" as="targetPoint" />
+            <mxPoint x="2230" y="1052" as="sourcePoint" />
+            <mxPoint x="2280" y="1002" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="IVo4ALchou82GjAAs4r0-7" edge="1" parent="1" source="IVo4ALchou82GjAAs4r0-4" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;edgeStyle=orthogonalEdgeStyle;" target="IVo4ALchou82GjAAs4r0-3" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="2200" y="1052" as="sourcePoint" />
-            <mxPoint x="2250" y="1002" as="targetPoint" />
+            <mxPoint x="2230" y="1052" as="sourcePoint" />
+            <mxPoint x="2280" y="1002" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IVo4ALchou82GjAAs4r0-8" edge="1" parent="1" source="rWTZEeXJ3mS4fAgbPOnj-1" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+        <mxCell id="IVo4ALchou82GjAAs4r0-8" edge="1" parent="1" source="rWTZEeXJ3mS4fAgbPOnj-1" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="IVo4ALchou82GjAAs4r0-4" value="[REST, MQTT, WS]">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="2110" y="910" as="sourcePoint" />
             <mxPoint x="2280" y="920" as="targetPoint" />
