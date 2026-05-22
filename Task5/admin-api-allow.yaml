@@ -1,0 +1,27 @@
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: admin-api-allow
+spec:
+  podSelector:
+    matchLabels:
+      role: admin-back-end-api
+  ingress:
+    - from:
+        - podSelector:
+            matchLabels:
+              role: admin-front-end
+---
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: admin-frontend-allow
+spec:
+  podSelector:
+    matchLabels:
+      role: admin-front-end
+  ingress:
+    - from:
+        - podSelector:
+            matchLabels:
+              role: admin-back-end-api
