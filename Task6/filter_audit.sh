@@ -24,7 +24,7 @@ grep '"verb":"create"' "$INPUT" | grep '"subresource":"exec"' >> "$OUTPUT"
 # 4. RoleBinding с cluster-admin (create + rolebindings + cluster-admin)
 grep '"verb":"create"' "$INPUT" | grep '"resource":"rolebindings"' | grep 'cluster-admin' >> "$OUTPUT"
 
-# 5. Удаление audit-policy (delete + audit-policy)
+# 5. Удаление audit-policy (audit-policy)
 grep 'audit-policy' "$INPUT" >> "$OUTPUT"
 
 COUNT=$(wc -l < "$OUTPUT")
